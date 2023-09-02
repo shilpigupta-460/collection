@@ -1,0 +1,19 @@
+Let us see a sample JSX code:
+
+1)
+const ele = <h1>This is sample JSX</h1>;
+
+The above code snippet somewhat looks like HTML and it also uses a JavaScript-like variable but is neither HTML nor JavaScript, it is JSX(JavaScript XML). JSX is basically a syntax extension of regular JavaScript and is used to create React elements. These elements are then rendered to the React DOM. 
+Why JSX?
+It is faster than normal JavaScript as it performs optimizations while translating to regular JavaScript.
+It makes it easier for us to create templates.
+Instead of separating the markup and logic in separate files, React uses components for this purpose. We will learn about components in detail in further articles.
+As JSX is an expression, we can use it inside of if statements and for loops, assign it to variables, accept it as arguments, or return it from functions.
+Using JavaScript expressions in JSX: In React we are allowed to use normal JavaScript expressions with JSX. To embed any JavaScript expression in a piece of code written in JSX we will have to wrap that expression in curly braces {}. Consider the below program, written in the index.js file:
+Attributes in JSX: JSX allows us to use attributes with the HTML elements just like we do with normal HTML. But instead of the normal naming convention of HTML, JSX uses the camelcase convention for attributes. For example, class in HTML becomes className in JSX.
+To do this we need to wrap all of these tags under a parent tag and then render this parent element to the HTML. All the subtags are called child tags or children of this parent element.
+
+Babel is a very famous transpiler that basically allows us to use future JavaScript in today’s browsers. In simple words, it can convert the latest version of JavaScript code into the one that the browser understands.
+What is a transpiler? 
+It is a tool that is used to convert source code into another source code that is of the same level.
+ote: It is also good to note that a compiler is totally different from a transpiler as the transpiler converts source code into another source code at the same abstraction level, whereas the compiler converts code into a lower-level code generally. Like in Java, the source code is converted to byte Code which is lower level and not equivalent.
